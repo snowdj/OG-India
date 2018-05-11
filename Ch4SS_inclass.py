@@ -15,6 +15,7 @@ A = 1
 delta_annual = 0.05
 delta = 1 - ((1 - delta_annual) ** np.round(econ_life / S))
 
+# Household parameters
 beta_annual = 0.96
 beta = beta_annual ** np.round(econ_life / S)
 sigma = 2.0
