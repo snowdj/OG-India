@@ -9,6 +9,7 @@ from matplotlib.ticker import MultipleLocator
 econ_life = 50  # years households are economically active real life
 S = 50  # number of model periods
 
+# Firm parameters
 alpha = 0.3
 A = 1
 delta_annual = 0.05
